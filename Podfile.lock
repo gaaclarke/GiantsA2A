@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - giants (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `giants/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `giants/.ios/Flutter/FlutterPluginRegistrant`)
+  - giants (from `giants/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: giants/.ios/Flutter/engine
+  FlutterPluginRegistrant:
+    :path: giants/.ios/Flutter/FlutterPluginRegistrant
+  giants:
+    :path: giants/.ios/Flutter
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  giants: 54a5d5bd789eb3448f89e566e0550e26ff7eed85
+
+PODFILE CHECKSUM: 000046b6a789748faa181013fb8c13c79b8d57d0
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE6D0DB24DCA88C004B151F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6D0DA24DCA88C004B151F /* AppDelegate.swift */; };
+		0DE6D0E224DCA88C004B151F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6D0E024DCA88C004B151F /* Main.storyboard */; };
+		0DE6D0E424DCA88D004B151F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6D0E324DCA88D004B151F /* Assets.xcassets */; };
+		0DE6D0E724DCA88D004B151F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6D0E524DCA88D004B151F /* LaunchScreen.storyboard */; };
+		0DE6D0F524DCAC90004B151F /* messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6D0EF24DCAC90004B151F /* messages.m */; };
+		0DE6D0F624DCAC90004B151F /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6D0F124DCAC90004B151F /* TeamViewController.swift */; };
+		0DE6D0F724DCAC90004B151F /* giants_pitchers_8_5_20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6D0F224DCAC90004B151F /* giants_pitchers_8_5_20.csv */; };
+		0DE6D0F824DCAC90004B151F /* giants_batters_8_5_20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6D0F324DCAC90004B151F /* giants_batters_8_5_20.csv */; };
+		874E1FAE6B92A59AD81237F0 /* Pods_GiantsA2A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D2646D55B54D394D113438 /* Pods_GiantsA2A.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE6D0D724DCA88C004B151F /* GiantsA2A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiantsA2A.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE6D0DA24DCA88C004B151F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DE6D0E124DCA88C004B151F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DE6D0E324DCA88D004B151F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DE6D0E624DCA88D004B151F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DE6D0E824DCA88D004B151F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE6D0EE24DCAC8F004B151F /* GiantsA2A-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiantsA2A-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DE6D0EF24DCAC90004B151F /* messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messages.m; sourceTree = "<group>"; };
+		0DE6D0F124DCAC90004B151F /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		0DE6D0F224DCAC90004B151F /* giants_pitchers_8_5_20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = giants_pitchers_8_5_20.csv; sourceTree = "<group>"; };
+		0DE6D0F324DCAC90004B151F /* giants_batters_8_5_20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = giants_batters_8_5_20.csv; sourceTree = "<group>"; };
+		0DE6D0F424DCAC90004B151F /* messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages.h; sourceTree = "<group>"; };
+		65D2646D55B54D394D113438 /* Pods_GiantsA2A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiantsA2A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8732298A384D40EC2FBFE4E2 /* Pods-GiantsA2A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantsA2A.debug.xcconfig"; path = "Target Support Files/Pods-GiantsA2A/Pods-GiantsA2A.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9C55291448F164D89A032B /* Pods-GiantsA2A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantsA2A.release.xcconfig"; path = "Target Support Files/Pods-GiantsA2A/Pods-GiantsA2A.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE6D0D424DCA88C004B151F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E1FAE6B92A59AD81237F0 /* Pods_GiantsA2A.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE6D0CE24DCA88C004B151F = {
+			isa = PBXGroup;
+			children = (
+				0DE6D0D924DCA88C004B151F /* GiantsA2A */,
+				0DE6D0D824DCA88C004B151F /* Products */,
+				79968A064EE7D31AC394A4DA /* Pods */,
+				36AC7A75C16D1E50DB797798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE6D0D824DCA88C004B151F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6D0D724DCA88C004B151F /* GiantsA2A.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE6D0D924DCA88C004B151F /* GiantsA2A */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6D0F324DCAC90004B151F /* giants_batters_8_5_20.csv */,
+				0DE6D0F224DCAC90004B151F /* giants_pitchers_8_5_20.csv */,
+				0DE6D0F424DCAC90004B151F /* messages.h */,
+				0DE6D0EF24DCAC90004B151F /* messages.m */,
+				0DE6D0F124DCAC90004B151F /* TeamViewController.swift */,
+				0DE6D0DA24DCA88C004B151F /* AppDelegate.swift */,
+				0DE6D0E024DCA88C004B151F /* Main.storyboard */,
+				0DE6D0E324DCA88D004B151F /* Assets.xcassets */,
+				0DE6D0E524DCA88D004B151F /* LaunchScreen.storyboard */,
+				0DE6D0E824DCA88D004B151F /* Info.plist */,
+				0DE6D0EE24DCAC8F004B151F /* GiantsA2A-Bridging-Header.h */,
+			);
+			path = GiantsA2A;
+			sourceTree = "<group>";
+		};
+		36AC7A75C16D1E50DB797798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65D2646D55B54D394D113438 /* Pods_GiantsA2A.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79968A064EE7D31AC394A4DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8732298A384D40EC2FBFE4E2 /* Pods-GiantsA2A.debug.xcconfig */,
+				FD9C55291448F164D89A032B /* Pods-GiantsA2A.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DE6D0D624DCA88C004B151F /* GiantsA2A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE6D0EB24DCA88D004B151F /* Build configuration list for PBXNativeTarget "GiantsA2A" */;
+			buildPhases = (
+				8CB2A7164E4DEE6375C7EEDB /* [CP] Check Pods Manifest.lock */,
+				F6DF27BEFE0C1B37F5A8B831 /* [CP-User] Run Flutter Build giants Script */,
+				0DE6D0D324DCA88C004B151F /* Sources */,
+				0DE6D0D424DCA88C004B151F /* Frameworks */,
+				0DE6D0D524DCA88C004B151F /* Resources */,
+				CA66B184A24D47FCD8ADBA16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiantsA2A;
+			productName = GiantsA2A;
+			productReference = 0DE6D0D724DCA88C004B151F /* GiantsA2A.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE6D0CF24DCA88C004B151F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aaron Clarke";
+				TargetAttributes = {
+					0DE6D0D624DCA88C004B151F = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 0DE6D0D224DCA88C004B151F /* Build configuration list for PBXProject "GiantsA2A" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DE6D0CE24DCA88C004B151F;
+			productRefGroup = 0DE6D0D824DCA88C004B151F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE6D0D624DCA88C004B151F /* GiantsA2A */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE6D0D524DCA88C004B151F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE6D0F824DCAC90004B151F /* giants_batters_8_5_20.csv in Resources */,
+				0DE6D0E724DCA88D004B151F /* LaunchScreen.storyboard in Resources */,
+				0DE6D0E424DCA88D004B151F /* Assets.xcassets in Resources */,
+				0DE6D0E224DCA88C004B151F /* Main.storyboard in Resources */,
+				0DE6D0F724DCAC90004B151F /* giants_pitchers_8_5_20.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CB2A7164E4DEE6375C7EEDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiantsA2A-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA66B184A24D47FCD8ADBA16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantsA2A/Pods-GiantsA2A-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantsA2A/Pods-GiantsA2A-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiantsA2A/Pods-GiantsA2A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DF27BEFE0C1B37F5A8B831 /* [CP-User] Run Flutter Build giants Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/./giants/.metadata",
+				"${SRCROOT}/giants/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/giants/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/giants/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build giants Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/giants/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE6D0D324DCA88C004B151F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE6D0DB24DCA88C004B151F /* AppDelegate.swift in Sources */,
+				0DE6D0F624DCAC90004B151F /* TeamViewController.swift in Sources */,
+				0DE6D0F524DCAC90004B151F /* messages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DE6D0E024DCA88C004B151F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE6D0E124DCA88C004B151F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DE6D0E524DCA88D004B151F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE6D0E624DCA88D004B151F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DE6D0E924DCA88D004B151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DE6D0EA24DCA88D004B151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DE6D0EC24DCA88D004B151F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8732298A384D40EC2FBFE4E2 /* Pods-GiantsA2A.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GiantsA2A/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.flutter.imitation-game.GiantsA2A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiantsA2A/GiantsA2A-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DE6D0ED24DCA88D004B151F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9C55291448F164D89A032B /* Pods-GiantsA2A.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GiantsA2A/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.flutter.imitation-game.GiantsA2A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiantsA2A/GiantsA2A-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE6D0D224DCA88C004B151F /* Build configuration list for PBXProject "GiantsA2A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6D0E924DCA88D004B151F /* Debug */,
+				0DE6D0EA24DCA88D004B151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE6D0EB24DCA88D004B151F /* Build configuration list for PBXNativeTarget "GiantsA2A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6D0EC24DCA88D004B151F /* Debug */,
+				0DE6D0ED24DCA88D004B151F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE6D0CF24DCA88C004B151F /* Project object */;
+}

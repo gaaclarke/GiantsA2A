@@ -1,0 +1,6 @@
+framework module Pods_GiantsA2A {
+  umbrella header "Pods-GiantsA2A-umbrella.h"
+
+  export *
+  module * { export * }
+}
